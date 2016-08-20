@@ -51,7 +51,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
   <body>
-  <?php clearstatcache(); ?>
+
     <?php require_once('ressources/functions.inc.php'); ?>
 
     <header>

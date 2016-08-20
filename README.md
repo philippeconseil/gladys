@@ -25,3 +25,5 @@ Si fiche affecté à plusieurs catégorie, cela ne supprime pas les mêmes fiches da
 Si cette fiche est affectée seulement à cette catégorie, suppression définitive de la fiche
 
 Sur la page d'accueil, accès à la modification de l'ordre d'affichage des catégories.
+
+Gestion des erreurs si route inconnue ou si erreur sql.

@@ -25,14 +25,12 @@
     <div class="col-sm-12 col-md-12">
     <form name="create_category" id="create_category" class="form-horizontal" action="?controller=categorys&action=validate" method="post">
         <fieldset>
-            <!-- Form Name -->
             <legend>
                 <?=(isset($category) ? 'Vous souhaitez modifier la catégorie : '.$category->label.' ?' : 'Vous souhaitez créer une nouvelle catégorie ?') ?>
             </legend>
 
             <input name="id" id="id" type="hidden" value="<?=(isset($category) ? $category->id : '') ?>">
 
-            <!-- Text input-->
             <div class="form-group">
                 <label class="col-md-4 control-label" for="label">Nom de la catégorie *</label>
                 <div class="col-md-4">

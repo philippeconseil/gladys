@@ -7,12 +7,10 @@
         $controller = new PagesController();
         break;
       case 'categorys':
-        // we need the model to query the database later in the controller
         require_once('models/category.php');
         $controller = new CategorysController();
         break;
       case 'sheets':
-        // we need the model to query the database later in the controller
         require_once('models/sheet.php');
         $controller = new SheetsController();
         break;
@@ -20,7 +18,7 @@
     $controller->{ $action }();
   }
 
-  // we're adding an entry for the new controller and its actions
+  // entry for the new controller and its actions
   $controllers = array('pages' => ['error'],
                        'categorys' => ['index', 'show', 'create', 'validate','delete', 'order', 'validateorder'],
                        'sheets' => ['index', 'show', 'create', 'validate','delete']);

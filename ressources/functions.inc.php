@@ -5,7 +5,12 @@
  * Date: 19/08/2016
  * Time: 17:36
  */
-
+/**
+ * Description : truncate string
+ * @param $chaine
+ * @param int $longueur
+ * @return string
+ */
 function tronque($chaine, $longueur = 120){
     if (empty ($chaine)) {
         return "";
@@ -18,6 +23,10 @@ function tronque($chaine, $longueur = 120){
     }
 }
 
+/**
+ * Description : get a random image for category
+ * @return string
+ */
 function getImgRandom(){
     $arrayImg = array("abstract", "animals", "business", "cats", "city", "food", "nightlife", "fashion", "people", "nature", "sports", "technics", "transport");
     $valueImg = array_rand(array_flip($arrayImg), 1);

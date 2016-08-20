@@ -1,5 +1,3 @@
-
-
 <div class="row">
     <div class="col-sm-12 col-md-12 pull-right">
         <div class="navbar-collapse navbar-actions">
@@ -22,14 +20,13 @@
     <div class="col-sm-12 col-md-12">
     <form name="create_sheet" id="create_sheet" class="form-horizontal" action="?controller=sheets&action=validate" method="post">
         <fieldset>
-            <!-- Form Name -->
+
             <legend>
                 <?=(isset($sheet) ? 'Vous souhaitez modifier la fiche : '.$sheet->label.' ?' : 'Vous souhaitez créer une nouvelle fiche ?') ?>
             </legend>
 
             <input name="id" id="id" type="hidden" value="<?=(isset($sheet) ? $sheet->id : '') ?>">
 
-            <!-- Text input-->
             <div class="form-group">
                 <label class="col-md-4 control-label" for="name">Libellé *</label>
                 <div class="col-md-4">
