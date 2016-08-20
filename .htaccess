@@ -1,0 +1,8 @@
+# fichier .htaccess
+
+Options +FollowSymlinks
+RewriteEngine on
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin: *
+</ifModule>
