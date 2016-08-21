@@ -60,7 +60,6 @@
                                 }
                             }
                             ?>
-
                             <option <?=$selected?> value="<?= $key ?>"><?= $category; ?></option>
                         <?php } ?>
                     </select>

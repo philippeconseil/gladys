@@ -39,6 +39,7 @@
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <link rel="stylesheet" href="ressources/css/ie10-viewport-bug-workaround.css">
   <link rel="stylesheet" href="ressources/css/jquery-ui.min.css" type="text/css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
   <!-- Custom styles for this template -->
   <link rel="stylesheet" href="ressources/css/gladys.css">
   <link rel="stylesheet" href="ressources/css/fonts.css">
@@ -95,6 +96,7 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script type="text/javascript" src="ressources/js/ie10-viewport-bug-workaround.js"></script>
     <script type="text/javascript" src="ressources/js/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
     <script type="text/javascript" src="ressources/js/gladys.js"></script>
   </body>
 </html>
