@@ -6,7 +6,7 @@
                 <?php if (isset($validate)){ ?>
                     <?php if ($validate){ ?>
                         <li>&nbsp;</li>
-                        <li><a href="?controller=sheets&action=create&idcategory=<?=$category->id?>" id="addsheetcategory" name="addsheetcategory"  class="btn btn-success btn-action"><span class="icon icon-pencil" aria-hidden="true"></span> Ajouter une fiche</a></li>
+                        <li><a href="?controller=sheets&action=create&idcategory=<?=$category->id?>" id="addsheetcategory" name="addsheetcategory" class="btn btn-success btn-action"><span class="icon icon-pencil" aria-hidden="true"></span> Ajouter une fiche</a></li>
                     <?php } ?>
                 <?php } ?>
             </ul>
@@ -36,15 +36,15 @@
                 <label class="col-md-4 control-label" for="label">Nom de la catégorie *</label>
                 <div class="col-md-4">
                     <input name="label" id="label" placeholder="catégorie..." required="required" class="form-control input-md" type="text" value="<?=(isset($category) ? $category->label : '') ?>">
-                    <small id="emailHelp" class="form-text text-muted">Une image par défaut sera affectée à la catégorie lors de l'enregistrement.</small>
+                    <small id="labelHelp" class="form-text text-muted">Une image par défaut sera affectée à la catégorie lors de l'enregistrement.</small>
                 </div>
                 </div>
             </div>
 
             <div class="form-group">
-                <label class="col-md-4 control-label" for="button1id"></label>
+                <label class="col-md-4 control-label" for="save"></label>
                 <div class="col-md-8">
-                    <button id="button1id" name="button1id"  class="btn btn-success">  Enregistrer</button>
+                    <button id="save" name="save" class="btn btn-success"><span class="icon icon-check" aria-hidden="true"></span> Enregistrer</button>
                 </div>
             </div>
 

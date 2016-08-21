@@ -68,9 +68,9 @@
             </div>
 
             <div class="form-group">
-                <label class="col-md-4 control-label" for="button1id"></label>
+                <label class="col-md-4 control-label" for="save"></label>
                 <div class="col-md-8">
-                    <button id="button1id" name="button1id"  class="btn btn-success"><span class="icon icon-check" aria-hidden="true"></span> Enregistrer</button>
+                    <button id="save" name="save" class="btn btn-success"><span class="icon icon-check" aria-hidden="true"></span> Enregistrer</button>
                 </div>
             </div>
 
