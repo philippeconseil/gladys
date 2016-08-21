@@ -15,7 +15,8 @@
             </ul>
         </div>
     </div>
-
+</div>
+<div class="row">
     <div class="col-sm-12 col-md-12 order">
         <ul class="row" id="list-categorys">
         <?php foreach($categorys as $category) { ?>

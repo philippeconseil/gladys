@@ -6,8 +6,8 @@
             </ul>
         </div>
     </div>
-
-
+</div>
+<div class="row">
     <?php if (isset($validate)){ ?>
         <div class="col-sm-12 col-md-12 col-paddingtop">
             <?php if ($validate){ ?>

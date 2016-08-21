@@ -69,7 +69,6 @@
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="./">Liste des catégories</a></li>
-              <li> - </li>
               <li><a href="?controller=categorys&action=create">Nouvelle catégorie</a></li>
               <li><a href="?controller=sheets&action=create">Nouvelle fiche</a></li>
             </ul>

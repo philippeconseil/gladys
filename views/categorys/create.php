@@ -1,17 +1,18 @@
-<div class="col-sm-12 col-md-12 pull-right">
-    <div class="navbar-collapse navbar-actions">
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="?controller=categorys&action=index" id="home" name="home" class="btn btn-success btn-action"><span class="icon icon-chevron-left" aria-hidden="true"></span> Retour à l'accueil</a></li>
-            <?php if (isset($validate)){ ?>
-                <?php if ($validate){ ?>
-                    <li>&nbsp;</li>
-                    <li><a href="?controller=sheets&action=create&idcategory=<?=$category->id?>" id="addsheetcategory" name="addsheetcategory"  class="btn btn-success btn-action"><span class="icon icon-pencil" aria-hidden="true"></span> Ajouter une fiche</a></li>
+<div class="row">
+    <div class="col-sm-12 col-md-12 pull-right">
+        <div class="navbar-collapse navbar-actions">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="?controller=categorys&action=index" id="home" name="home" class="btn btn-success btn-action"><span class="icon icon-chevron-left" aria-hidden="true"></span> Retour à l'accueil</a></li>
+                <?php if (isset($validate)){ ?>
+                    <?php if ($validate){ ?>
+                        <li>&nbsp;</li>
+                        <li><a href="?controller=sheets&action=create&idcategory=<?=$category->id?>" id="addsheetcategory" name="addsheetcategory"  class="btn btn-success btn-action"><span class="icon icon-pencil" aria-hidden="true"></span> Ajouter une fiche</a></li>
+                    <?php } ?>
                 <?php } ?>
-            <?php } ?>
-        </ul>
+            </ul>
+        </div>
     </div>
 </div>
-
 <div class="row">
     <?php if (isset($validate)){ ?>
         <div class="col-sm-12 col-md-12 col-paddingtop">

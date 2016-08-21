@@ -11,7 +11,7 @@
                 Vous souhaitez ajouter une nouvelle catégorie ? <a title="Ajouter une catégorie" alt="Ajouter une catégorie" href="?controller=categorys&action=create">cliquez ici</a>.
             </div>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="?controller=categorys&action=order" id="ordercategory" name="ordercategory"  class="btn btn-success btn-action"><span class="icon icon-arrows-alt" aria-hidden="true"></span> Modifier l'ordre d'affichage des catégories</a></li>
+                <li><a href="?controller=categorys&action=order" id="ordercategory" name="ordercategory"  class="btn btn-success btn-action"><span class="icon icon-arrows-alt" aria-hidden="true"></span> Gestion de l'ordre d'affichage</a></li>
             </ul>
         </div>
     </div>
@@ -23,7 +23,8 @@
         </div>
         <?php } ?>
     <?php } ?>
-
+</div>
+<div class="row">
     <?php foreach($categorys as $category) { ?>
       <div class="col-sm-3 col-md-3">
         <a class="category" href='?controller=categorys&action=show&id=<?php echo $category->id; ?>' title="<?php echo $category->label; ?>" alt="<?php echo $category->label; ?>">
