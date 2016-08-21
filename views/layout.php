@@ -66,13 +66,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./"><span class="title-website">Annuaire Gladys</span></a>
+            <a title="Annuaire Gladys" alt="Annuaire Gladys" class="navbar-brand" href="./"><span class="title-website">Annuaire Gladys</span></a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="./">Liste des catégories</a></li>
-              <li><a href="?controller=categorys&action=create">Nouvelle catégorie</a></li>
-              <li><a href="?controller=sheets&action=create">Nouvelle fiche</a></li>
+              <li><a title="Liste des catégories" alt="Liste des catégories" href="./">Liste des catégories</a></li>
+              <li><a title="Nouvelle catégorie" alt="Nouvelle catégorie" href="?controller=categorys&action=create">Nouvelle catégorie</a></li>
+              <li><a title="Nouvelle fiche" alt="Nouvelle fiche" href="?controller=sheets&action=create">Nouvelle fiche</a></li>
             </ul>
           </div>
         </div>
