@@ -5,7 +5,7 @@
     /**
      * Description : route to all category
      */
-    public function index() {
+    public function index($statusDelete = false) {
       // we store all the posts in a variable
       $categorys = Category::all();
       require_once('views/categorys/index.php');
@@ -48,7 +48,7 @@
       $id = $_GET['id'];
       $statusDelete = Category::delete($id);
 
-      $this->index();
+      $this->index($statusDelete);
     }
 
     /**

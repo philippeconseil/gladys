@@ -14,6 +14,8 @@
             </ul>
         </div>
     </div>
+</div>
+<div class="row col-paddingtop">
     <?php if(isset($statusDelete)){ ?>
         <?php if($statusDelete){ ?>
         <div class="col-sm-12 col-md-12">
