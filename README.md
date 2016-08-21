@@ -6,8 +6,7 @@ Developement for Gladys
 Technique :
 
 J'ai développé le site en respectant le modèle MVC.
-J'ai utilisé Boostrap pour le coté front (très simple).
-En pièce jointe le fichier contenant la structure de la base de données.
+J'ai utilisé Boostrap pour le coté front (très simple). Site responsive.
 
 Fonctionnement :
 

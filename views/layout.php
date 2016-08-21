@@ -49,6 +49,7 @@
   <![endif]-->
   <!-- font -->
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
   <body>
 
@@ -64,7 +65,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./">Annuaire Gladys</a>
+            <a class="navbar-brand" href="./"><span class="title-website">Annuaire Gladys</span></a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">

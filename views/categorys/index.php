@@ -2,7 +2,6 @@
     <div class="col-sm-12 col-md-12">
       <div class="alert alert-info info-categorie" role="alert">Nos catégories</div>
     </div>
-
     <div class="col-sm-12 col-md-12 pull-right">
         <div class="navbar-collapse navbar-actions">
             <div class="nav navbar-nav navbar-left">
@@ -15,7 +14,6 @@
             </ul>
         </div>
     </div>
-
     <?php if(isset($statusDelete)){ ?>
         <?php if($statusDelete){ ?>
         <div class="col-sm-12 col-md-12">

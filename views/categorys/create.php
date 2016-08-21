@@ -36,7 +36,7 @@
                 <label class="col-md-4 control-label" for="label">Nom de la catégorie *</label>
                 <div class="col-md-4">
                     <input name="label" id="label" placeholder="catégorie..." required="required" class="form-control input-md" type="text" value="<?=(isset($category) ? $category->label : '') ?>">
-                    <small id="emailHelp" class="form-text text-muted">Une image par défaut sera affecté à la catégorie lors de l'enregistrement.</small>
+                    <small id="emailHelp" class="form-text text-muted">Une image par défaut sera affectée à la catégorie lors de l'enregistrement.</small>
                 </div>
                 </div>
             </div>
