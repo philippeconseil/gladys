@@ -265,3 +265,11 @@ ul#list-categorys li.highlight{
     padding-top: 20px;
 }
 
+.figure img+span.badge {
+    position: relative;
+    top: -22px;
+    left: -2px;
+    color: #fff;
+    background-color: #00BCD4;
+    font-size: 1em;
+}

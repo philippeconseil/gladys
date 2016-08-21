@@ -30,6 +30,7 @@
         <a class="category" href='?controller=categorys&action=show&id=<?php echo $category->id; ?>' title="<?php echo $category->label; ?>" alt="<?php echo $category->label; ?>">
           <figure class="figure">
             <img src="<?php echo $category->image; ?>" class="img-responsive figure-img img-fluid img-rounded" alt="<?php echo $category->label; ?>">
+            <span class="badge badge-success pull-right"><?php echo $category->nbsheet; ?></span>
             <figcaption class="figure-caption text-xs-middle title-category"><?php echo $category->label; ?></figcaption>
           </figure>
         </a>

@@ -4,11 +4,13 @@
     public $id;
     public $label;
     public $image;
+    public $nbsheet;
 
     public function __construct($id, $label, $image) {
       $this->id      = $id;
       $this->label  =  $label;
       $this->image  =  $image;
+      $this->nbsheet  =  $this->getNbSheetCategory($id);
     }
 
     /**
@@ -22,7 +24,9 @@
       $req = $db->query('SELECT * FROM category ORDER BY position_order');
 
       foreach($req->fetchAll() as $category) {
+
         $list[] = new Category($category['id'], $category['label'], $category['image']);
+
       }
 
       return $list;
@@ -139,6 +143,22 @@
       $req->bindParam(":position_order", $order, PDO::PARAM_STR);
       $req->bindParam(":id", $id, PDO::PARAM_INT);
       $req->execute();
+    }
+    
+    /**
+     * Description : add number of sheet by category
+     * @param $id
+     * @return int
+     */
+    public static function getNbSheetCategory($id){
+
+      $db = Db::getInstance();
+
+      $req2 = $db->prepare('SELECT * FROM sheet_category WHERE id_category = :id_category ');
+      $req2->execute(array('id_category' => $id));
+      $nbSheetCatgory = $req2->rowCount();
+
+      return $nbSheetCatgory;
     }
   }
 ?>
